@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0.5em 1em 0 0;
+    font-size: 0.8em;
+    font-weight: 100;
+    margin-right: 30px;
+}
+
+body {
+    background-color: #eceef1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #4c4c4c;
+}
+
+header button {
+    margin-left: 0.5em;
+    background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    padding: 0.4em 1.6em;
+}
+
+button {
+    display: flex;
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+button span {
+    margin-right: 0.5em;
+}
